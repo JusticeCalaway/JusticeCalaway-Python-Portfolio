@@ -2,7 +2,7 @@
 1.) Hello World
 2.) Read the header of a CSV file
 3.) Read the header of a JSON file
-4.) Read the first 1000 line of a CSV file
+4.) Read the first 1000 line of a JSON file
 5.) Read the first 1000 line of a JSON file
 
 1.) # Hello World
@@ -26,4 +26,23 @@ data = json.load(json_file)
 header = list(data.keys())
 print(header)
 
-4.)
+4.) # Read the first 1000 line of a JSON file
+
+import pandas as pd
+csv_file_path = 'C:\Users\UserName\FileLocation\FileName.csv'
+data = pd.read_csv(file_path, nrows=1000)
+header = data.columns
+print(header)
+print(data)
+
+
+5.) # Read the first 1000 line of a JSON file
+
+import json
+json_file_path = r'C:\Users\UserName\FileLocation\FileName.json
+with open(json_file_path, 'r') as json_file
+data = json.load(json_file)
+header = list(data.keys())
+print(header)
+print(list(data.values())[1000])
+
