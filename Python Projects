@@ -2,7 +2,7 @@
 1.) Hello World
 2.) Read the header of a CSV file
 3.) Read the header of a JSON file
-4.) Read the first 1000 line of a JSON file
+4.) Read the first 1000 line of a CSV file
 5.) Read the first 1000 line of a JSON file
 
 1.) # Hello World
