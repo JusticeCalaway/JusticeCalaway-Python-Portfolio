@@ -26,7 +26,7 @@ data = json.load(json_file)
 header = list(data.keys())
 print(header)
 
-4.) # Read the first 1000 line of a JSON file
+4.) # Read the first 1000 line of a CSV file
 
 import pandas as pd
 csv_file_path = 'C:\Users\UserName\FileLocation\FileName.csv'
